@@ -12,7 +12,7 @@ end
 
 def monopoly_with_third_tier
    baseHash = {
-   :railroads => {names: 3, pieces: 4, rent_in_dollars: {}}
+   :railroads => {names: {}, pieces: 4, rent_in_dollars: {}}
  }
 
 end
