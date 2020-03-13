@@ -6,14 +6,12 @@ end
 
 def monopoly_with_second_tier
    baseHash = {
-   :railroads => {pieces: 4, rent_in_dollars: {}}
+   :railroads => {:names => {}, pieces: 4, rent_in_dollars: {}}
  }
 end
 
 def monopoly_with_third_tier
-   baseHash = {
-   :railroads => {:names => {}, pieces: 4, rent_in_dollars: {}}
- }
+
 
 end
 
